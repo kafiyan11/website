@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV ATS Friendly</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header, .section {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 10px;
+            justify-items: start;
+            width: 100%;
+            max-width: 400px;
+        }
+        .contact-info li {
+            display: contents;
+        }
+        .contact-info li i {
+            margin-right: 10px;
+            color: #555;
+        }
+        .section h2 {
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+            width: 100%;
+            text-align: left;
+        }
+        .job, .education, .project, .certification {
+            margin-bottom: 10px;
+        }
+        .job h3, .education h3, .project h3, .certification h3 {
+            margin: 0;
+        }
+        .section-content {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="foto_profil.jpg" alt="Foto Profil" class="photo">
+            <h1>Nama Lengkap</h1>
+            <ul class="contact-info">
+                <li><i class="fas fa-envelope"></i></li><li>Email:</li><li>email@example.com</li>
+                <li><i class="fas fa-phone"></i></li><li>Telepon:</li><li>123-456-7890</li>
+                <li><i class="fab fa-linkedin"></i></li><li>LinkedIn:</li><li>linkedin.com/in/username</li>
+                <li><i class="fab fa-github"></i></li><li>GitHub:</li><li>github.com/username</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Ringkasan Profil</h2>
+            <p>Saya adalah [profesi] dengan pengalaman [tahun] di bidang [bidang]. Saya memiliki keahlian dalam [keahlian utama] dan berfokus pada [tujuan karir].</p>
+        </div>
+
+        <div class="section">
+            <h2>Pengalaman Kerja</h2>
+            <div class="section-content">
+                <div class="job">
+                    <h3>Posisi - Nama Perusahaan</h3>
+                    <p>Lokasi | Tanggal Mulai - Tanggal Selesai</p>
+                    <ul>
+                        <li>Tugas atau pencapaian 1</li>
+                        <li>Tugas atau pencapaian 2</li>
+                        <li>Tugas atau pencapaian 3</li>
+                    </ul>
+                </div>
+                <!-- Tambahkan lebih banyak pengalaman kerja jika diperlukan -->
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Pendidikan</h2>
+            <div class="section-content">
+                <div class="education">
+                    <h3>Gelar - Institusi</h3>
+                    <p>Lokasi | Tanggal Lulus</p>
+                    <ul>
+                        <li>Pencapaian akademik 1</li>
+                        <li>Pencapaian akademik 2</li>
+                    </ul>
+                </div>
+                <!-- Tambahkan lebih banyak pendidikan jika diperlukan -->
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Keahlian</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Keahlian Teknis: [keahlian teknis]</li>
+                    <li>Keahlian Lunak: [keahlian lunak]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Proyek</h2>
+            <div class="section-content">
+                <div class="project">
+                    <h3>Judul Proyek</h3>
+                    <p>Deskripsi singkat proyek dan teknologi yang digunakan.</p>
+                </div>
+                <!-- Tambahkan lebih banyak proyek jika diperlukan -->
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Sertifikasi</h2>
+            <div class="section-content">
+                <div class="certification">
+                    <h3>Nama Sertifikasi - Institusi Pemberi</h3>
+                    <p>Tanggal Diterima</p>
+                </div>
+                <!-- Tambahkan lebih banyak sertifikasi jika diperlukan -->
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Bahasa</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Bahasa 1 - Tingkat Kemahiran</li>
+                    <li>Bahasa 2 - Tingkat Kemahiran</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Referensi</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Nama - Jabatan - Perusahaan - Kontak</li>
+                    <!-- Tambahkan lebih banyak referensi jika diperlukan -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
